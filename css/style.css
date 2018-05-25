@@ -1,0 +1,46 @@
+#main-doc {
+  display: flex;
+}
+
+a {
+  color: black !important;
+}
+
+.messages {
+  /* take up all the space */
+  flex-grow: 1;
+  height: 100vh;
+  /* when the content on the y-axis takes up more than 1 
+  screen, make it verticaly scrollable  */
+  overflow-y: scroll;
+}
+
+#navbar {
+  flex: 0 0 200px;
+  height: 100vh;
+}
+
+#navbar ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 30px;
+}
+
+#navbar li {
+  padding: 10px 25px;
+  font-weight: bolder;
+}
+
+#navbar i {
+  opacity: 0.5;
+  width: 20px;
+}
+
+header {
+  font-size: 26px;
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
